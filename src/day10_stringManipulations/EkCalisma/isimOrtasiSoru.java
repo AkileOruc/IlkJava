@@ -1,4 +1,4 @@
-package day10_stringManipulations;
+package day10_stringManipulations.EkCalisma;
 
 public class isimOrtasiSoru {
     public static void main(String[] args) {
