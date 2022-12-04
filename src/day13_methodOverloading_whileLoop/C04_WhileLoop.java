@@ -20,6 +20,6 @@ public class C04_WhileLoop {
             sayi++;
         }
         // for loop ile yapilabilecek bir soruyu illa da while loop ile yapmak
-        // biraz zahmetli
+        // biraz zahmetli  sonra lazim
     }
 }
