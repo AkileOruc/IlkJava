@@ -2,7 +2,7 @@ package day07_ternary_switchStatements;
 
 import java.util.Scanner;
 
-public class C1_IfElseIf {
+public class C01_IfElseIf {
 
     public static void main(String[] args) {
         /* kullanicidan bir tamsayi alin

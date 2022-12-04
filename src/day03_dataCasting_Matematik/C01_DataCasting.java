@@ -1,6 +1,6 @@
-package day3_dataCasting_Matematik;
+package day03_dataCasting_Matematik;
 
-public class C1_DataCasting {
+public class C01_DataCasting {
     public static void main(String[] args) {
         /*
         String str= 23;

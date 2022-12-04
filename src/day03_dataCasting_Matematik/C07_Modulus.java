@@ -1,4 +1,4 @@
-package day3_dataCasting_Matematik;
+package day03_dataCasting_Matematik;
 
 public class C07_Modulus {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day3_dataCasting_Matematik;
+package day03_dataCasting_Matematik;
 
 import java.util.Scanner;
 

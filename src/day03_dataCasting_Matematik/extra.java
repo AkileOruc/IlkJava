@@ -1,6 +1,4 @@
-package day3_dataCasting_Matematik;
-
-import java.util.Scanner;
+package day03_dataCasting_Matematik;
 
 public class extra {
     public static void main(String[] args) {
