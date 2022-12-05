@@ -19,22 +19,22 @@ public class KrediKarti {
 
         System.out.println("Lutfen 16 haneli kredi karti bilgilerinizi giriniz ");
         String kartNo =scan.nextLine();
+        int flag=0;
+        if (!(kartNo.length()==16)){
+            System.out.println("Kart numarasi 16 haneli olmali");
+            flag++;
+        }if (flag==0){
+            System.out.println(isim.toUpperCase().charAt(0) + isim.substring(1).replaceAll("\\w","*"));
+            System.out.println(soyIs.toUpperCase().charAt(0) + soyIs.substring(1).replaceAll("\\w", "*"));
 
-
-        System.out.println(isim.toUpperCase().charAt(0)+ isim.replaceAll("\\w","*"));
-
-        System.out.println(soyIs.toUpperCase().charAt(0)+isim.replaceAll("\\w","*"));
-
-        //String telefon ="555 3451234";
-        //System.out.println(telefon.replace("555","532"));
-        System.out.print("************");
-        System.out.print( kartNo.substring(12));
-
-
+            System.out.print("**** **** **** " + kartNo.substring(12));
 
 
 
 
+
+
+        }
 
     }
 }
