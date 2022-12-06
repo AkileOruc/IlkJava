@@ -6,7 +6,7 @@ static String hastaneAdresi= "Cankaya /Ankara";
 
 
 String personelAdi;
-String personelAdres;
+String personelAdresi;
 String personelTel;
 
     public static void main(String[] args) {

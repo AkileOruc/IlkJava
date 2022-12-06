@@ -10,8 +10,8 @@ public class C03_DoWhileLoop {
      char bitis='m' ;
 
      do {
-         System.out.print(baslangic+ " ");
-         baslangic=(char) (baslangic+1);
+         System.out.print(baslangic+ " ");    //yazdirmayi icerde yaptik cunku islem yok, yazdircaz
+         baslangic=(char) (baslangic+1);  //baslangic++; yapabilirdik
 
 
 

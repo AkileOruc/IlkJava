@@ -18,7 +18,7 @@ public class C02_doWhileLoop {
         System.out.println("Girilen sayilarin toplami : " + toplam);
         /*
            While loop'da ilk sart saglanmazsa loop body hic CALISMAZ
-           Do-While Loop'da once body calisdigi icin, sart yanlis olsa bile
+           Do-While Loop'da once body calistigi icin, sart yanlis olsa bile
            loop body'si en az 1 kere calismis olur
          */
     }
