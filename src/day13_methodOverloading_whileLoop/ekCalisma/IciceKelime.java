@@ -30,6 +30,14 @@ public class IciceKelime {
     }
 
     }
-
-
 }
+/* String name1= "meryem";
+        String name2= "senem";
+
+        if (name1.length()%2==0) {
+
+            String name11= name1.substring(0,name1.length()/2).concat(name2).concat(name1.substring(name1.length()/2));
+            System.out.println(name11);
+
+        } else {
+            System.out.println("Name2 cannot be inserted in the name1");*/

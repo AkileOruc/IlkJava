@@ -45,11 +45,24 @@ public class krediKarti2 {
         }else {
             System.out.println("> KartNo : **** **** "+kartNo.substring(kartNo.length()-4));
         }
-
-
-
     }
-
-
-
 }
+/*Scanner scan=new Scanner(System.in);
+
+        System.out.println("Please text your name: ");
+        String name=scan.next();
+
+        System.out.println("Please text your surname: ");
+        String surname =scan.next();
+
+        System.out.println("Please give your credit card number without any space: ");
+        String ccn=scan.next().trim();
+
+        String nameFormat=name.substring(0,1).toUpperCase() + name.substring(1).replaceAll("\\w", "*");
+        String surnameFormat=surname.substring(0,1).toUpperCase()+surname.substring(1).replaceAll("\\w", "*");
+        String ccFormat= "**** **** **** " + ccn.substring(12);
+
+        System.out.println("Name : " + nameFormat + " " + surnameFormat);
+        System.out.println("CCN : " + ccFormat);
+
+        scan.close();*/
