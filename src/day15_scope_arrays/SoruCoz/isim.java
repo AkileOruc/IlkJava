@@ -22,4 +22,6 @@ public class isim {
         }
         System.out.println(isimToplami.substring(0,isimToplami.length()-7));  //tamam.length+  2 yildiz icin = 7
     }
+
+
 }

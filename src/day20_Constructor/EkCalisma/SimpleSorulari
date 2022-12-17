@@ -1,0 +1,82 @@
+Soru-28)
+Kullanıcının girdiği sayıyı tersine çeviren bir program yazın.
+Örnek:
+      Sayı: 1238
+      Sayının Tersi: 8321
+İpucu:  Loop kullanabilirsiniz.
+-------------------------------------------------------------------------------------------------------------
+Soru29-)
+1'den 100'e kadar olan doğal sayıların toplamını bulmak için bir Program yazın.
+İpucu: Loop kulanabilirsiniz
+--------------------------------------------------------------------------------------------------------------
+Soru 30-)
+Bir Stringdeki yinelenen karakterleri Array String olarak döndüren bir kod yazın.
+( mülakat sorusu )
+Örnek:
+String str="Javacokkolay"
+Yinelenen karakterler : [a, o, k]
+İpucu: İçiçe for looplar, String Manupulations ve ifler kullanrak çözebilrsiniz.
+            Stringdeki bir harfi Stringde bulunan diger harfler ile karşılaştırıp
+            konteynıra atacaksınız bu yüzden iç içe loop kullanmak mantıklı duruyor
+-----------------------------------------------------------------------------------------------------------------
+Soru 31-)
+Kullanıcıdan Arrayin uzunlugunu isteyin.
+Ardından kullanıcıdan Arrayin elemanlarını girmesini isteyin.
+İpucu:  Önce uzunluk alıp arrayi oluştur daha sonra loop ile kullancııya doldurt
+------------------------------------------------------------------------------------------------------------------
+Soru 32-)
+Kullanıcıdan alacagınız bilgilerle oluşturdugunuz bir Integer Array dizesini Reverse olarak (tersten) yazdırınız.
+İpucu:  int arrReverse[] diye bir array oluşturun ve kullancıya oluşturdugunuz arrayi buna tersten assign edin...
+------------------------------------------------------------------------------------------------------------------
+Soru 33-)
+Array kullanarak String bir cümleyi Reverse eden (tersine çeviren) bir Java programı yazın
+ (boşluklar ve özel karakterler dahil).
+Örnek:
+String str=''Kodlama harika.''
+String arr[]: ".etaerg si gnidoC"
+İpucu: Önce Split kullanarak Arraye çevirin ardından Loop kullanarak son karakterden başlayıp tersten yazdırın
+------------------------------------------------------------------------------------------------------------------
+Soru 34-)
+Bir String'i parametre olarak kabul eden ve verilen dizede Stringde bulunan rakamların toplamını yazdıran
+ bir Method yazın.
+
+Örnek
+String str : ade1r4d3
+Int toplam : 8
+İpucu :      Character.isDigit() kullanarak Digitleri alabilir sonra bunları Arraye atabilirsiniz.
+                  Ardından loop yardımı ile Integer.valueOf() kullanarak toplama yapabilirsiniz
+------------------------------------------------------------------------------------------------------------------
+Soru 35-)
+Parametre olarak bir isim kabul eden ve ismi bir char Array dizisi olarak yazdıran bir method Return edin.
+		--> toCharArray() yöntemini kullanmayın
+Örnek:
+		String isim:    Yakup
+		char arr[]:     [Y,a,k,u,p]
+İpucu: Bir method içerisinde Array oluşturun ve aldıgınız ismi methoda gönderin.
+ Bu ismi parçalayarak, her bir harfi, Arraye yerleştirin
+------------------------------------------------------------------------------------------------------------------
+Soru 36-)
+Verilen bir Array dizisindeki ortadaki degeri döndüren bir kod/method yazın.
+( Yapabilirseniz Dinamik kod yazmaya çalışın, Arrayin uzunlugu degişse de ortadaki elemanı getirsin)
+Örnek:
+inputarr[]=   {1,2,3,4,5,6,7}
+output:         4
+İpucu:  Arrayin indexini hesaplayarak bulabilirsiniz. Kendinizi geliştirme adına sorunun cevabını
+degişik yollardan yapabilir, Arrayi kullanıcıya oluşturabilirsiniz (Öneri..)
+Soru 37-)
+--BONUS--  ---SORU AŞKIYLA YANIP TUTUŞANLAR İÇİN :-))---
+(Eliminate duplicates)
+ENG:
+Write a method that returns a new array by eliminating the duplicate values in the array using the following method header
+Write a test program that reads in ten integers, invokes the method, and displays the result.
+(Tekrarlananları çıkar)
+TÜR:
+Tekrarlanan kayıtların çıkarıldığı yeni bir dizi döndüren aşağıdaki başlıga sahip bir metot yazınız.
+On tane tamsayı alan ve bu metodu çağırarak sonucu gösteren bir test programı yazınız.
+---->>>
+public static int[] eliminateDuplicates(int[] list)
+ÖRNEK:
+On sayi giriniz:
+1 2 3 2 1 6 3 4 5 2
+ÇIKTI:
+Birbirinden farkli girilen sayilar: 1 2 3 6 4 5

@@ -3,10 +3,6 @@ import java.util.Arrays;
 public class C09_ArrayeyeniDegerBulma {
     public static void main(String[] args) {
 
-
-
-
-
         int[] arr1= {1,2,3};
 
 // arr1= {3,6,1,8};

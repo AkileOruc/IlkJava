@@ -13,17 +13,17 @@ public class C07_set {
         harfler.add("A");
         harfler.add("Z");
         harfler.add("T");
-        System.out.println(harfler);
+        System.out.println(harfler);           //[A, Z, T]
 
         // 2.index'e F elemanini ekleyin
         // add method'u var olan listeden herhangi bir elementi degistirmeden
         // istedigimiz elementi ekler, kalanlari kaydirir
 
         harfler.add(2,"F");     // add  2.siraya F koyar digerleri 1er kayar
-        System.out.println(harfler);
+        System.out.println(harfler);           //[A, Z, F, T]
 
-        harfler.set(2,"M");
-        System.out.println(harfler);       // set ise 2 deki elemani silip yerine M koyar
+        harfler.set(2,"M");            // set ise 2 deki elemani silip yerine M koyar
+        System.out.println(harfler);        //[A, Z, M, T]
 
 
         // set method'u var olan elemntin degerini gunceller

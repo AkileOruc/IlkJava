@@ -18,10 +18,10 @@ public class C01_Arrays {
         arr2[2]=15;
         arr2[0]=7;
 
-        System.out.println(arr2);      //[I@4dd8dc3
+        System.out.println(arr2);      //[I@4dd8dc3  //referansini verir
 
 
-        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr2));    // yazdirmak icin Arrays.toString(arr) yapmaliyiz
 
         System.out.println(Arrays.toString(arr1));
     }

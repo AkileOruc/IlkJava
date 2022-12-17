@@ -13,8 +13,6 @@ public class C10_Soru {
         List<String> isimlerListesi =   isimListesiOlustur();
         System.out.println(isimlerListesi);
     }
-
-
     public static List<String> isimListesiOlustur(){
 
         List<String> isimListesi= new ArrayList<>();
@@ -26,7 +24,7 @@ public class C10_Soru {
 
             System.out.println("Listeye eklemek icin bir isim girin\nBitirmek icin Q'ya basin");
             girilenIsim= scan.nextLine();
-            if (!girilenIsim.equalsIgnoreCase("q")){//q yu 2. kez kontrol cunku kullanici tekrer isim girecek
+            if (!girilenIsim.equalsIgnoreCase("q")){//q yu 2. kontrol cunku kullanici tekrar isim girecek
 
                 isimListesi.add(girilenIsim);
             }

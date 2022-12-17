@@ -10,7 +10,7 @@ package day13_methodOverloading_whileLoop;
         System.out.println(str.substring(3, 5)); // a
 
 
-        // Eger sectigimiz isimde birden fazla method varsa buna overloading denir
+        // Eger sectigimiz isimde, birden fazla method varsa buna overloading denir
         // ve ayni isimdeki method'lardan hangisinin calisacagina argument/parametre uyumu karar verir
 
         toplama(5,6); // 2 tamsayinin toplami :11

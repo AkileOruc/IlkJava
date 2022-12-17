@@ -2,7 +2,7 @@ package day17_arrays.Haftasonu;
 
 import java.util.Scanner;
 
-public class practiceSoru1 {
+public class practSoru1DigitTop {
     public static void main(String[] args) {
  // 1-Kullanıcı tarafından girilen string ifadenin içindeki sayısal değerleri toplayan metodu yazınız
         Scanner scan=new Scanner(System.in);
