@@ -24,6 +24,8 @@ public class C01_binarySearch {
             olmadigini belirtmek icin basina - koyar
          */
         System.out.println(Arrays.binarySearch(arr, 7)); // -6
+
+        // index ini degil1 den baslayip sayarak sirasini gosteriyor
     }
 }
 

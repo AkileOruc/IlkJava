@@ -10,6 +10,7 @@ public class practiceSoru1 {
 
         String str= scan.nextLine();
 
+
         String yeniStr=str.replaceAll("\\D"," ");
         System.out.println("yeniStr = " + yeniStr);
 

@@ -26,7 +26,8 @@ public class C10_Soru {
 
             System.out.println("Listeye eklemek icin bir isim girin\nBitirmek icin Q'ya basin");
             girilenIsim= scan.nextLine();
-            if (!girilenIsim.equalsIgnoreCase("q")){
+            if (!girilenIsim.equalsIgnoreCase("q")){//q yu 2. kez kontrol cunku kullanici tekrer isim girecek
+
                 isimListesi.add(girilenIsim);
             }
 
