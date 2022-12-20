@@ -16,8 +16,30 @@ public class C01_LocalTime {
 
         System.out.println(zaman.plusHours(100).plusMinutes(250));//18:23:21.865952400
 
+        // bir for loop ile 1'den 10000'e kadar olan sayilari yanyana yazdirin
+        // bu islem icin gecen zamani bulun
+        LocalTime basZamani=LocalTime.now();
+        System.out.println("baslangic "+basZamani);
+        for (int i = 1; i <=10000 ; i++) {
+            System.out.print(i+" ");
+        }
+        LocalTime bitZamani=LocalTime.now();
+        System.out.println("");
+        System.out.println("bitis "+bitZamani);
+        System.out.println("Islem suresi : " +
+                (bitZamani.getNano()-basZamani.getNano())
+                +" nano saniye");
+
+        /*
+            Olusturdugumuz time veya date guncel zamani veya tarihi tutmaya devam eden bir sayac degil
+            olusturdugumuz satirdaki zamani veya tarih'i sistemden alip kaydeden bir variable'dir
+
+            ilerleyen satirlarda guncel zaman veya tarihe ihtiyacimiz oldugunda
+            yeni bir time veya date objesi olusturup
+            o andaki degeri alabiliriz.
+         */
+
 
     }
-
-
 }
+

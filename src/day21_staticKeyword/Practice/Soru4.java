@@ -19,7 +19,7 @@ public class Soru4 {
                 *
  */
 
-       static ArrayList<String> urunList=new ArrayList<>(Arrays.asList("Portakal","Mandalina","Elma","Ispanak","Muz"));
+   static ArrayList<String> urunList=new ArrayList<>(Arrays.asList("Portakal","Mandalina","Elma","Ispanak","Muz"));
     static ArrayList<Integer> fiyatList = new ArrayList<>(Arrays.asList(10, 12, 15, 10, 18));
     static double toplam = 0;
     static Scanner scan = new Scanner(System.in);

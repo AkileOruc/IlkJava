@@ -1,6 +1,8 @@
 package day19_arrayList_forEachLoop.Calisma;
 
 public class Array {
+    public static Object sort;
+
     public static void main(String[] args) {
         // 6- Verilen String bir array'deki en uzun ve en kisa kelimeleri yazdiran bir method
         // olusturun.

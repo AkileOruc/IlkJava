@@ -17,7 +17,7 @@ public class C02_LocalDateTime {
 
         System.out.println(ldt.getDayOfWeek());//TUESDAY
 
-        System.out.println(ldt.withYear(2030));
+        System.out.println(ldt.withYear(2030));//2030-12-20T11:06:15.050713700
 
 
     }
