@@ -20,6 +20,6 @@ public class C05_Varargs {
 
     private static void topla(int sayi1, int sayi2) {
 
-        System.out.println("iki satini toplami"+ (sayi1+sayi2));
+        System.out.println("iki satirin toplami"+ (sayi1+sayi2));
     }
 }

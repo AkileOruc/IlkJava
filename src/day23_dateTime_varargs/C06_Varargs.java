@@ -2,6 +2,9 @@ package day23_dateTime_varargs;
 
 public class C06_Varargs {
     public static void main(String[] args) {
+
+        //oyle bir method olusturalim ki kac tane argumant yazarsak yazalim
+        //hepsinin toplamini versin
         topla(5,6);
         topla(5,6,5,7,9,4,6,8);
         
