@@ -29,6 +29,7 @@ public class Soru37 {
         List<Integer>yeniList= Arrays.asList(list);
 
         System.out.println(eliminateDuplicates(yeniList));
+
     }
 
     public static ArrayList<Integer> eliminateDuplicates(List<Integer> list) {
