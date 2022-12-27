@@ -1,6 +1,6 @@
 package day22_immutableClasses.EkPractice;
 
-public class MiltiDimensionalArr {
+public class MiltiDimensTopla {
     //Verilen 2 arraydeki tum elemanlarin toplamini bulalim
 
     public static void main(String[] args) {
